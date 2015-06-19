@@ -1,8 +1,15 @@
-var fs = require("fs"),
-	window = require("jsdom").jsdom().createWindow();
+var global = (function() { return this; })();
 
-window.WebSocket = require("ws");
-window.EventSource = require("eventsource");
-window.eval(fs.readFileSync(__dirname + "/atmosphere.js", "utf-8"));
+if (typeof global.window === 'undefined') {
+    var window = require("jsdom").jsdom().createWindow();
+    window.WebSocket = require("ws");
+    window.EventSource = require("eventsource");
+    global.window = window;
 
-module.exports = window.atmosphere;
+    global.WebSocket = window.WebSocket;
+    global.EventSource = window.EventSource;
+    global.navigator = window.navigator;
+    global.document = window.document;
+}
+
+module.exports = require('./lib/atmosphere');

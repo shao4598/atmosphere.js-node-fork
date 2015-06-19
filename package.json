@@ -1,6 +1,6 @@
 {
   "name": "atmosphere.js",
-  "version": "2.2.10",
+  "version": "2.2.12",
   "homepage": "https://github.com/Atmosphere/atmosphere-javascript",
   "description": "Atmosphere client for Node.js",
   "main": "index.js",
@@ -24,6 +24,6 @@
     "ws": "0.4.31",
     "eventsource": "0.0.10"
   },
-  "browser": "./atmosphere.js",
+  "browser": "./lib/browser.js",
   "devDependencies": {}
 }
