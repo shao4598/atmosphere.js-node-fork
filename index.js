@@ -1,7 +1,9 @@
 var global = (function() { return this; })();
 
 if (typeof global.window === 'undefined') {
-    var window = require("jsdom").jsdom().defaultView;
+    // create a custom window object to emulate the normal browser window
+    var window = {navigator:{userAgent:"atmosphere.js"},document:{}};
+
     window.WebSocket = require("ws");
     window.EventSource = require("eventsource");
     global.window = window;

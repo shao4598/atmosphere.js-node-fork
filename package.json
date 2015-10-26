@@ -20,7 +20,6 @@
     "url": "https://github.com/Atmosphere/atmosphere-javascript/issues"
   },
   "dependencies": {
-    "jsdom": "6.3.0",
     "ws": "0.8.0",
     "eventsource": "0.1.6"
   },
