@@ -15,7 +15,7 @@
     "atmosphere"
   ],
   "author": "Jeanfrancois Arcand <jfarcand@apache.org>",
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Atmosphere/atmosphere-javascript/issues"
   },
