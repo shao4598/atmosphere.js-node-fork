@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "ws": "0.8.0",
-    "eventsource": "0.1.6"
+    "eventsource": "0.1.6",
+    "xmlhttprequest": "1.8.0"
   },
   "browser": "./lib/browser.js",
   "devDependencies": {}

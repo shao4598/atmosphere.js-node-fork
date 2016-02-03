@@ -6,6 +6,7 @@ if (typeof global.window === 'undefined') {
 
     window.WebSocket = require("ws");
     window.EventSource = require("eventsource");
+    window.XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     global.window = window;
 
     global.WebSocket = window.WebSocket;
