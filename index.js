@@ -2,7 +2,7 @@ var global = (function() { return this; })();
 
 if (typeof global.window === 'undefined') {
     // create a custom window object to emulate the normal browser window
-    var window = {navigator:{userAgent:"atmosphere.js"},document:{},location:{}};
+    var window = {navigator:{userAgent:"atmosphere.js"},document:{},location:{},JSON:JSON};
 
     window.WebSocket = require("ws");
     window.EventSource = require("eventsource");
