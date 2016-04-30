@@ -20,9 +20,9 @@
     "url": "https://github.com/Atmosphere/atmosphere-javascript/issues"
   },
   "dependencies": {
-    "ws": "1.0.1",
-    "eventsource": "0.1.6",
-    "xmlhttprequest": "1.8.0"
+    "ws": "^1.0.1",
+    "eventsource": "^0.1.6",
+    "xmlhttprequest": "^1.8.0"
   },
   "browser": "./lib/browser.js",
   "devDependencies": {}
