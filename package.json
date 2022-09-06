@@ -1,6 +1,6 @@
 {
   "name": "atmosphere-fork.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "homepage": "https://github.com/Atmosphere/atmosphere-javascript",
   "description": "Fork Atmosphere client for Node.js",
   "main": "index.js",

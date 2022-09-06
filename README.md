@@ -6,5 +6,5 @@ This repository provides [Atmosphere](https://github.com/Atmosphere/atmosphere) 
 ### Install
 
 ```bash
-npm install atmosphere.js
+npm install atmosphere-fork.js
 ```
