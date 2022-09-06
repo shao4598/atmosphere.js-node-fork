@@ -1,8 +1,8 @@
 {
-  "name": "atmosphere.js",
-  "version": "4.0.0",
+  "name": "atmosphere-fork.js",
+  "version": "0.0.1",
   "homepage": "https://github.com/Atmosphere/atmosphere-javascript",
-  "description": "Atmosphere client for Node.js",
+  "description": "Fork Atmosphere client for Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
